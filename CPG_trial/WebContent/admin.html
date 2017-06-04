@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>ADMIN page</h1>
+<h2> Please enter the details to add items in the product list or click on View products to view/modify product details!</h2>
+<form action="SaveServlet" method="post">
+<table>
+<tr><td>Product ID:</td><td><input type="number" name="product_id" required/></td></tr>
+<tr><td>Product Name:</td><td><input type="text" name="product_name" required/></td></tr>
+
+<tr><td>Quantity:</td><td><input type="number" name="quantity" required/></td></tr>
+<tr><td>Price:</td><td><input type="number" name="price" required/></td></tr>
+
+
+
+
+<tr><td colspan="2"><input type="submit" value="Submit"/></td></tr>
+</table>
+</form>
+<br/>
+<h3><a href="ViewServlet">View products</a></h3>
+
+</body>
+</html>
